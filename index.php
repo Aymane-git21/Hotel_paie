@@ -20,10 +20,10 @@
     include 'Pages/Header.php';
 
     // Connexion à la base de données
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "hotel"; // Updated database name
+    $servername = "hotelpaie.database.windows.net";
+    $username = "Chunchunmaru";
+    $password = "Flying9lwa21-";
+    $dbname = "hotelpaiedb"; // Updated database name
 
     // Créer la connexion
     $conn = new mysqli($servername, $username, $password, $dbname);
